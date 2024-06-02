@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Modal</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1> Tạo Modal với HTMT, CSS, JS </h1>
+        <h2> Trường học Mindx</h2>
+        <button id="btn-open">
+            Click Here Open Modal
+        </button>
+        <h3> 1. JSX là gì?
+
+            Cú pháp trông giống như HTML mà chúng ta sử dụng trong các component thực sự không phải HTML thông thường.
+            Đó là một cú pháp mới có tên là JSX - Javascript XML.
+
+            JSX là cú pháp do đội ngũ React phát triển, sử dụng chủ yếu trong React. Tuy nhiên vẫn có thể sử dụng JSX
+            cho một vài công cụ khác như VueJS.
+
+            Mục đích của JSX được tạo ra để có thể tạo ra các element một cách tường minh và đơn giản. JSX cho phép
+            developer có thể tạo ra các đoạn HTML nhanh chóng, kèm với khả năng có thể chèn các giá trị JS vào bên trong
+            để tạo ra trang web có nội dung động.</h3>
+        <div id="modal-container">
+            <div class="modal" id="modal-demo">
+                <div class="modal-header">
+                    <h3> Modal Title </h3>
+                    <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="modal-body">
+                    <p>Props là tham số đầu vào của các component trong React. Props là một trong những khái niệm cực kỳ
+                        quan trọng của React.
+
+                        Props có giá trị là một object. Nó chính là tham số thứ hai trong function `React.createElement`
+                        (tham số thứ hai trong `React.createElement` chính là một object).
+
+                        Liên tưởng đơn giản, props trong React chính là các thuộc tính trong HTML. Điểm khác biệt ở đây
+                        là chúng ta có thể tự định nghĩa những thuộc tính đó, thay vì với HTML, các thuộc tính được định
+                        nghĩa sẵn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="root"></div> -->
+    <!-- <script type="module" src="/src/main.jsx"></script> -->
+    <script src="style.js"></script>
+</body>
+
+</html>
